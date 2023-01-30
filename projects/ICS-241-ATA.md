@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/cotton/cotton-square.png
-title: "ICS 390"
+title: "ICS 390 (ICS 241 ATA)"
 date: 2023 - Present
 published: true
 labels:
