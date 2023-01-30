@@ -25,21 +25,22 @@
       "keywords": [ "C", "C++", "Java", "Javascript", "Python"]
     },
     {
-      "name": "Toolsets/OS",
+      "name": "Technology",
       "keywords": [ "Windows 10", "GitHub"]
     }
   ],
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "area": "Information & Computer Science (expected Spring, 2025)",
+      "studyType": "B.A.",
+      "startDate": "2021-08-01",
       "endDate": "Present",
       "courses": [
       ]
     }
   ],
+   /*
   "work": [
     {
       "company": "UH Manoa Board of Publications",
@@ -93,19 +94,26 @@
       ]
     }
   ],
+  */
   "awards": [
     {
       "title": "B+ Scholarship",
-      "date": "2013-Present",
+      "date": "2021-Present",
       "awarder": "State of Hawaii",
       "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
-    }
+      "title": "Manoa Academic Merit Scholarship",
+      "date": "2021-Present",
+      "awarder": "University of Hawaii at Mānoa",
+      "summary": "Scholarships awarded to incoming freshmen who have a GPA of 3.8 at a Hawai'i public school."
+    },
+    {
+      "title": "Mānoa Dean's List",
+      "date": "Fall 2021, Fall 2022",
+      "awarder": "University of Hawaii at Mānoa Honors Program",
+      "summary": "Undergraduate students who earn a semester grade point average of 3.5 or higher."
+    },
   ],
   "references": [
     {
