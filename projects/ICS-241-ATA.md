@@ -11,4 +11,4 @@ labels:
   - Computing Ethics for Lab Assistants
 summary: "As a part of the ICS 390 Course at UH Manoa, we are required to assist in labs for different ICS course."
 ---
-This is the 1st project
+This is the 1st project!
