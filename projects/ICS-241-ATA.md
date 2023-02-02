@@ -20,4 +20,5 @@ As this is a recent endeavour, not much has happened during the lecture periods 
 <img class="img-fluid" src="../img/ICS-241-ATA/ICS_390_Chapter_1_(3).png">
 
 As not a lot of information is online, here is a link to the entry on the General
-Catalog of classes at UH Manoa: https://manoa.hawaii.edu/catalog/courses/ics-390-computing-ethics-for-lab-assistants-3/
+Catalog of classes at UH Manoa: <a href="https://manoa.hawaii.edu/catalog/courses/ics-390-computing-ethics-for-lab-assistants-3/"><i class="large github icon "></i>Catalog Link</a>
+
