@@ -8,7 +8,7 @@ published: true
 labels:
   - Python
   - Game Development
-summary: "A small game developed I did with my team in Highschool for our final project."
+summary: "A small game developed I did with my team in High School for our final project."
 ---
 <img class="img-fluid" src="../img/Duck_Hunt/Duck_Hunt_Screenshot.png">
 
