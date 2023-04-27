@@ -13,9 +13,11 @@ labels:
 
 <img width="200px" class="rounded float-start pe-4" src="../img/difficulty/JS-logo.png">
 
-## Instructions on the box
+## Instructions
 
-Paragraph
+When, say a restaurant wants to franchise its business  
+
+As quoted from Christopher Alexander, 1977 from the material of this section, [A design pattern] "describes a problem that occurs over and over again in our environment, and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice."
 
 ## Title
 
