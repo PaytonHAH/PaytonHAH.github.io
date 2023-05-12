@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/Bank_Database_GUI/bank.jpeg
+image: img/ICS-314-Final-Project/Snack-Squad-Logo.png
 title: "Snack Squad"
 date: 2023
 published: true
