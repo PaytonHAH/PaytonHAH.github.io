@@ -4,7 +4,7 @@ type: essay
 title: "Why are they Misunderstanding me? A Beginner's Perspective on Smart Questions."
 # All dates must be YYYY-MM-DD format!
 date: 2023-01-26
-published: true
+published: false
 labels:
   - Smart Questions
   - Bad Questions
