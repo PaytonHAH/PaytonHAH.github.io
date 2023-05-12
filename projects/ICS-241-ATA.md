@@ -4,7 +4,7 @@ type: project
 image: img/ICS-241-ATA/discrete_math_image.png
 title: "ICS 390 (ICS 241 ATA)"
 date: 2023 - Present
-published: true
+published: false
 labels:
   - ATA
   - Discrete Math

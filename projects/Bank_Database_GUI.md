@@ -2,7 +2,7 @@
 layout: project
 type: project
 image: img/Bank_Database_GUI/bank.jpeg
-title: "Bank_Database_GUI"
+title: "Bank Database GUI"
 date: 2022
 published: true
 labels:
