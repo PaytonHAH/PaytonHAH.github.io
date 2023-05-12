@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Bank Database GUI | Payton Higa | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/PaytonHAH.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Payton Higa | Professional Portfolio">
+    <meta property="og:url" content="https://PaytonHAH.github.io/projects/Bank_Database_GUI.html">
+    <meta property="og:title" content="Bank Database GUI | Payton Higa | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/PaytonHAH.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Bank Database GUI | Payton Higa | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Payton Higa</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Bank Database GUI</h1>
+ <p>As a final project for ICS 212 Program Structure we had to demonstrate our knowledge of C and C++ through the final project, where we had to make a simplified bank database and gui. In this class we learned C and C++ and different ways to optimize our code through coding standards. We learned the different features of C and C++ which allows us to make the project. Along with that, we learned how to work with a server, by having all of our work being done in UHUNIX, where we had to learn how to upload files and run them.</p>
+
+<p>With this project I further developed my skills with the importance of coding standards and planning. We had rules for the programming in this class, and combined with the editor we had to use, we had to be extra careful to follow the coding standard. Along with that, we learned the importance of planning your code, as to limit the need to go back and fix code, so you can focus on the present code. This was really important for this project because there were so many functions that made up the GUI and database, that if one function broke, you would need to go all the way back and see what was wrong, and there was no guarantee that the function that returned the error had the error in it in the first place. Below is an example of an output and one of the functions in the project.</p>
+
+<p><img class="img-fluid" src="../img/Bank_Database_GUI/Bank_Database_GUI.png" /></p>
+<hr />
+
+<pre>
+int llist::findRecord (int accountNumber)
+{
+    int returnVal;
+    int tempNum;
+    struct record * tempCurrent = start;
+    returnVal = 1;
+
+    while(tempCurrent != NULL)
+    {
+        tempNum = tempCurrent -&gt; accountno;
+        if(tempNum == accountNumber)
+        {
+            returnVal = 0;
+            std::cout &lt;&lt; "acccountNumber: " &lt;&lt; tempCurrent -&gt; accountno &lt;&lt; "\n";
+            std::cout &lt;&lt; "name: " &lt;&lt; tempCurrent -&gt; name &lt;&lt; "\n";
+            std::cout &lt;&lt; "address:\n" &lt;&lt; tempCurrent -&gt; address &lt;&lt; "\n";
+        }
+        tempCurrent = tempCurrent -&gt; next;
+        if(tempCurrent != NULL)
+        {
+            tempNum = tempCurrent -&gt; accountno;
+        }
+    }
+    #ifdef debug
+        std::cout &lt;&lt; "\nfindRecord Function Debug\n";
+        std::cout &lt;&lt; "accountNumber: " &lt;&lt; accountNumber &lt;&lt; "\n";
+        std::cout &lt;&lt; "Returns 0 if found and 1 if did not.\n";
+        std::cout &lt;&lt; "result: " &lt;&lt; returnVal &lt;&lt; "\n\n";
+    #endif
+    return returnVal;
+}
+</pre>
+
+<hr />
+
+<p>Source: <a href="https://www2.hawaii.edu/~berneyk/ics212/hw/project2/project2.html"><i class="large github icon "></i>Link to original assignment page</a></p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
