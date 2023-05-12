@@ -10,7 +10,7 @@ labels:
   - Software Engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/difficulty/JS-logo.png">
+<img width="200px" class="rounded float-start pe-4" src="../img/Software-Engineering/top.png.png">
 
 ## Software Engineering
 People, at least me when I first decided to pursue computer science, may think software engineering is just making stuff that people use on the internet. In essence, if you want to boil it down like, yeah you could describe it as such. But the more I have hone and practiced my skills in this class, the more I have come to appreciate the effort that goes into software engineering. Some may think that ordinary programming is harder compared to software engineering. While programming can be hard, and is a part of software engineering, programming in a bubble is a lot more simple. With software engineering you have so many edge cases and variables to be aware of, where one mistake can ruin an entire website leaving you scouring your code for that one line. Going in without the proper skill development, software engineering can feel like a nightmare, but through some skills cultivated in this class, these nightmares can be mitigated. 
